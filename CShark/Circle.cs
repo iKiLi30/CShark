@@ -10,8 +10,8 @@ namespace CShark
     /// </summary>
     public class Circle : ICloneable
     {
-        int radiuse;
-        string color;
+        public int radiuse;
+        public string color;
 
         public Circle(int radiuse, string color)
         {
@@ -19,7 +19,7 @@ namespace CShark
             this.color = color;
         }
 
-        public object Clone()
+        public virtual object Clone()
         {
             return new Circle(this.radiuse, this.color);
         }
