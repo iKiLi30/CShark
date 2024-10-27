@@ -17,6 +17,9 @@ namespace CShark
 
             Logik Slogik = new SeaLogik();
             Slogik.Delivery();
+
+            Logik Alogik = new AirLogik();
+            Alogik.Delivery();
             
         }
     }
