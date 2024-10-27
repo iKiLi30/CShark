@@ -5,13 +5,16 @@ using System.Threading.Tasks;
 
 namespace CShark
 {
-    public class Logik
-    {   
-        public void Delivery(Transport transport)
+    abstract public class Logik
+    {
+        public abstract Transport CreateTransport();
+
+        public void Delivery()
         {
-        transport.Load();
-        transport.Go();
-        transport.UnLoad();
+            Transport transport= CreateTransport();
+            transport.Load();
+            transport.Go();
+            transport.UnLoad();
         }
     }
 }

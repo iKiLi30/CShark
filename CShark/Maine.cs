@@ -11,13 +11,14 @@ namespace CShark
             Logger.getInstance().Debug("Это СИНГЛТОН\n");
 
             System.Console.WriteLine("Это фабрика");
-            Logik logik= new Logik();
+            
+            Logik Rlogik = new RoadLogik();
+            Transport truck = new Truck();
+            Rlogik.Delivery();
 
-            Transport truck= new Truck();
-            logik.Delivery(truck);
-
-            Transport boath= new Boath();
-            logik.Delivery(boath);
+            Logik Slogik = new SeaLogik();
+            Transport boath = new Boath();
+            Slogik.Delivery();
             
         }
     }
