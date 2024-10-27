@@ -13,17 +13,16 @@ namespace CShark
             System.Console.WriteLine("Абстрактная фабрика пошла, пошла, пошла");                        
             
             AbstractFactory mfactory = new MetalFactory();
-            Dinner(mfactory.CreateChair(), mfactory.CtraetTable());
-
             AbstractFactory wfactory = new WoodFactory();
-            Dinner(wfactory.CreateChair(),wfactory.CtraetTable());
+
+            DinnerService mdinner = new DinnerService(mfactory);
+            DinnerService wdinner = new DinnerService(wfactory);
+            mdinner.Dinner();
+            wdinner.Dinner();
+
 
 
         }
-        static void Dinner(Chair chair, Table table)
-        {
-            chair.sit();
-            table.eat();
-        }
+        
     }
 }

@@ -13,7 +13,7 @@ namespace CShark
             return new MetalChair();
         }
 
-        public override Table CtraetTable()
+        public override Table CreateTable()
         {
             return new MetalTable();
         }

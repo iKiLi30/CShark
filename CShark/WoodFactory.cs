@@ -12,7 +12,7 @@ namespace CShark
             return new WoodChair();
         }
 
-        public override Table CtraetTable()
+        public override Table CreateTable()
         {
             return new WoodTable();
         }

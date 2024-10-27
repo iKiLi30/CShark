@@ -7,10 +7,19 @@ namespace CShark
 {
     public class DinnerService
     {
+        Chair chair;
+        Table table;
+
         public DinnerService(AbstractFactory factory)
         {
-            Chair chair = factory.CreateChair();
-            Table table = factory.CtraetTable();
+        chair = factory.CreateChair();
+        table = factory.CreateTable();
+        }
+
+        public void Dinner()
+        {
+            chair.sit();
+            table.eat();
         }
     }
 }
