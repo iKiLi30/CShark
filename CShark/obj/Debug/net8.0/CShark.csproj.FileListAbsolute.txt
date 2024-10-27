@@ -1,0 +1,14 @@
+/home/debi/Documents/CShark/CShark/bin/Debug/net8.0/CShark
+/home/debi/Documents/CShark/CShark/bin/Debug/net8.0/CShark.deps.json
+/home/debi/Documents/CShark/CShark/bin/Debug/net8.0/CShark.runtimeconfig.json
+/home/debi/Documents/CShark/CShark/bin/Debug/net8.0/CShark.dll
+/home/debi/Documents/CShark/CShark/bin/Debug/net8.0/CShark.pdb
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.GeneratedMSBuildEditorConfig.editorconfig
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.AssemblyInfoInputs.cache
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.AssemblyInfo.cs
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.csproj.CoreCompileInputs.cache
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.dll
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/refint/CShark.dll
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.pdb
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.genruntimeconfig.cache
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/ref/CShark.dll
