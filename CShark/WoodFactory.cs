@@ -7,7 +7,7 @@ namespace CShark
 {
     public class WoodFactory : AbstractFactory
     {
-        public override Chair CreateChaie()
+        public override Chair CreateChair()
         {
             return new WoodChair();
         }

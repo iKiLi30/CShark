@@ -8,7 +8,7 @@ namespace CShark
     public class MetalFactory : AbstractFactory
     {
 
-        public override Chair CreateChaie()
+        public override Chair CreateChair()
         {
             return new MetalChair();
         }

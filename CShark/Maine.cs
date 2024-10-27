@@ -13,10 +13,10 @@ namespace CShark
             System.Console.WriteLine("Абстрактная фабрика пошла, пошла, пошла");                        
             
             AbstractFactory mfactory = new MetalFactory();
-            Dinner(mfactory.CreateChaie(), mfactory.CtraetTable());
+            Dinner(mfactory.CreateChair(), mfactory.CtraetTable());
 
             AbstractFactory wfactory = new WoodFactory();
-            Dinner(wfactory.CreateChaie(),wfactory.CtraetTable());
+            Dinner(wfactory.CreateChair(),wfactory.CtraetTable());
 
 
         }

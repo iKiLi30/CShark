@@ -7,7 +7,7 @@ namespace CShark
 {
     abstract public class AbstractFactory
     {
-        public abstract Chair CreateChaie();
+        public abstract Chair CreateChair();
         public abstract Table CtraetTable();
     }
 }

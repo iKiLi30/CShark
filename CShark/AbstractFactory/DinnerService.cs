@@ -9,7 +9,8 @@ namespace CShark
     {
         public DinnerService(AbstractFactory factory)
         {
-            
+            Chair chair = factory.CreateChair();
+            Table table = factory.CtraetTable();
         }
     }
 }
