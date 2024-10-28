@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace CShark
 {
-    public class RobotHandle
+    public class Hand
     {   
-        public RobotHandle()
+        public Hand()
         {
             System.Console.WriteLine("Руки");
         }        

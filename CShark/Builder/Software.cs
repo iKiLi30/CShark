@@ -9,7 +9,7 @@ namespace CShark
     {
         public Software()
         {
-            System.Console.WriteLine("Голова");
+            System.Console.WriteLine("Прошивка");
         }        
     }
 }
