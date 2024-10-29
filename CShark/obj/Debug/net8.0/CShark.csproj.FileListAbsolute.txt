@@ -12,3 +12,4 @@
 /home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.pdb
 /home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.genruntimeconfig.cache
 /home/debi/Documents/CShark/CShark/obj/Debug/net8.0/ref/CShark.dll
+/home/debi/Documents/CShark/CShark/obj/Debug/net8.0/CShark.sourcelink.json
